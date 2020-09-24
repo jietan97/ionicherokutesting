@@ -1,7 +1,9 @@
 {
   "name": "ionicherokutesting",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Ionic Framework",
+  "description": "node app ",
+  "main": "app.js",
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
@@ -10,10 +12,14 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
-  },  "repository": {
+  },  
+  "repository": {
     "type": "git",
     "url": ""
   },
+  "license": "ISC",
+  "bugs": {
+},
   "private": true,
   "dependencies": {
     "@angular/common": "~10.0.0",
