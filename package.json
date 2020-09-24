@@ -2,7 +2,6 @@
   "name": "ionicherokutesting",
   "version": "0.0.1",
   "author": "Ionic Framework",
-  "description": "node app ",
   "main": "app.js",
   "homepage": "https://ionicframework.com/",
   "engines": {
@@ -15,14 +14,13 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
-  },  
+  },
   "repository": {
     "type": "git",
     "url": ""
   },
   "license": "ISC",
-  "bugs": {
-},
+  "bugs": {},
   "private": true,
   "dependencies": {
     "@angular/common": "~10.0.0",
@@ -40,11 +38,11 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
+    "package-lock.json": "^1.0.0",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
-    "zone.js": "~0.10.3",
-    "@ionic/app-scripts": "2.1.4",
-    "typescript": "2.3.4"
+    "typescript": "2.3.4",
+    "zone.js": "~0.10.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1000.0",
@@ -54,6 +52,7 @@
     "@angular/language-service": "~10.0.0",
     "@capacitor/cli": "2.4.1",
     "@ionic/angular-toolkit": "^2.3.0",
+    "@ionic/app-scripts": "^3.2.4",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
